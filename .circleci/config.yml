@@ -21,7 +21,7 @@ jobs:
       MAVEN_OPTS: -Xmx3200m
     
     steps:
-      - run: cd initial
+      - run: cd ~/repo/initial
 
       - checkout
 
