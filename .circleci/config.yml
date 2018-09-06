@@ -21,9 +21,9 @@ jobs:
       MAVEN_OPTS: -Xmx3200m
     
     steps:
-      - run: cd ~/repo/initial
-
       - checkout
+
+      - run: cd ~/repo/initial
 
       # Download and cache dependencies
       - restore_cache:
